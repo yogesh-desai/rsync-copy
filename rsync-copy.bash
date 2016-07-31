@@ -1,6 +1,7 @@
 #!/bin/bash
 # This code takes Date as input in YYYYMMDD Format.
 # Copies the Files / FOlders to Destination if Source contains the files.
+# It uses rsync command to copy files.
 
 StartDate=`date +"%Y%m%d" -d $1`  #"20160601"`
 EndDate=`date +"%Y%m%d" -d $2`    #"20160605"`
